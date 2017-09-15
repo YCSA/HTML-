@@ -1,0 +1,421 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+.centenr{
+    margin-left: auto;margin-right: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #cccccc;
+}
+.top-a{
+    width: 1240px;
+    height: 40px;
+}
+.top-aa li{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.top-ab li{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.nav{
+    width: 1240px;
+    height: 225px;
+}
+.nav-a{
+    width: 100%;
+    background: url("../images3/logo.png") no-repeat ;
+    height: 70px;
+    margin-top: 30px;
+}
+.nav-a p{
+    float: right;
+    color: #b2b2b2;
+    line-height: 16px;
+    font-size: 12px;
+    margin-right: -150px;
+}
+.nav-a span{
+    display: inline-block;
+    background: url("../images3/clock.png") no-repeat;
+    width: 15px;height: 16px;
+
+}
+.nav-a button{
+    width: 150px;
+    height: 42px;
+    background: #ffdb3d url("../images3/shopcar.png") no-repeat 30px 15px;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-top: 28px;
+}
+.nav-a-ss{
+    float: right;
+    width: 362px;
+    height: 40px;
+    position: relative;
+    margin-top: 28px;
+    margin-right: 10px;
+
+}
+.nav-a-ss input{
+    width: 360px;
+    height: 40px;
+    position: absolute;
+}
+.nav-a-ss a{
+    width: 40px;
+    height: 42px;
+    display: inline-block;
+    background: url("../images3/fangdajing.png") no-repeat center center;
+    position: absolute;
+    border: 1px solid #888888;
+    margin-left: 322px;
+}
+.nav-b{
+    margin-top: 20px;
+    width: 1240px;height: 50px;
+    background: #404145;
+}
+.nav-c{
+    width: 250px;
+    height: 50px;
+    background: #ff4a00;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-indent: 20px;
+    float: left;
+}
+.nav-d{
+    width: 990px;
+    height: 50px;
+    float: right;
+}
+.nav-d li{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+    text-indent: 20px;
+    margin-right: 20px;
+}
+.nav-e{
+    width: 1240px;
+    height: 65px;
+    overflow: hidden;
+}
+.nav-e button{
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    background: #ff4a00;
+    border: none;
+    float: right;
+    margin-top: 35px;
+}
+.nav-e ul{
+    float: right;
+    margin-top: 40px;
+    color: #666666;
+    font-size: 14px;
+}
+.nav-e li{
+    display: inline-block;
+    margin-right:15px;
+}
+.nav-e li:first-child{
+    color: #ff4a00;
+}
+.nav-e p{
+    color: #666666;
+    font-size: 12px;
+    float: left;
+    margin-top: 35px;
+}
+.nav-e p span{
+    font-size: 20px;
+}
+.reddot{
+    background: url("../images4/hezi.png") no-repeat center center;
+    width: 1920px;
+    height:917px;
+    border-top: 1px solid #cccccc;
+}
+.reddot-a{
+width: 1000px;
+    height: 360px;
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+    background: url("../images4/reddot.jpg") no-repeat;
+}
+.reddot-b{
+    font-size: 70px;
+    color: #666666;
+    line-height: 90px;
+    margin-top: 50px;
+}
+.reddot-c{
+    font-size: 18px;
+    line-height: 50px;
+    color: #666666;
+}
+.reddot-d{
+    color: #ff4a00;
+    font-size: 30px;
+}
+.reddot-d span{
+    color: #ff4a00;font-size: 60px;
+}
+.reddot-a button{
+    width: 200px;
+    height: 60px;
+    background-color: #ff4a00;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.cha{
+    width: 100%;
+    background: url("../images4/xiaomichazuo.png") no-repeat center center;
+    height: 979px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 90px;
+}
+.cha-a{
+    font-size: 65px;
+    color: #666666;
+}
+.cha-b{
+    font-size: 18px;
+    color: #666666;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.shou{
+    background: url("../images4/jihe.png") no-repeat center center;
+    width: 1903px;height: 1120px;
+}
+.cltv{
+    background: url("../images4/dianying.png") no-repeat center center;
+    width: 1903px;height: 1252px;
+}
+.shong{
+    background: url("../images4/jiating.png") no-repeat center center;
+    width: 1903px;height: 970px;
+}
+.liwu{
+text-align: center;
+    width: 1903px;
+    height: 800px;
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+.liwu-a{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.liwu-b{
+    color: #ff4a00;
+    font-size: 60px;
+}
+.liwu-b span{
+    color: #ff4a00;
+    font-size: 22px;
+}
+.liwu button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #ff4a00;
+    border-radius: 3px;
+    border: none;
+}
+.sj{
+    width: 1250px;
+    height: 220px;
+}
+.sj-a{
+    width: 20%;
+    height: 220px;
+    box-sizing: border-box;
+    border-right: 1px solid #ebebeb;
+    text-align: center;
+    float: left;
+    padding-top: 50px;
+}
+.sj-a p{
+    font-size: 22px;
+    color: #b2b2b2;
+    margin-top: 20px;
+}
+.sj-b{
+    height: 350px;
+    background-color: #fcfcfc;
+}
+.dianshi{
+width: 1240px;
+    height: 700px;
+    border-top: 1px solid #ebebeb;
+}
+.dianshi-b{
+    width: 33.3%;
+    height: 520px;
+    text-align: center;
+    float: left;
+    padding-top: 50px;
+}
+.dianshi-ba{
+    font-size: 30px;
+    color: #333;
+    line-height: 80px;
+}
+.dianshi-bb{
+    font-size: 20px;
+    color: #999;
+    line-height: 30px;
+}
+.dianshi-b span{
+    display: block;
+    color: #ff4a00;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.end{
+    width: 1920px;
+    height: 537px;
+    background-color: #FAFAFA;
+}
+.end-a{
+    width: 1240px;
+    height: 160px;
+}
+.end-b{
+    width: 20%;
+    height: 160px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.end-b p{
+    line-height: 40px;
+}
+.end-c{
+    width: 1240px;
+    height: 200px;
+    border-bottom: 1px solid #ebebeb;
+
+}
+.end-d{
+    width: 290px;
+    height: 140px;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.end-d-wz{
+    font-size: 30px;
+    line-height: 40px;
+}
+.end-d-wx{
+    font-size: 12px;
+    line-height: 20px;
+}
+.end-d button{
+    width: 150px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ff4a00;
+    border: none;
+    margin-top: 15px;
+}
+.end-e{
+    width: 950px;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+}
+.end-e ul{
+    float: left;
+    width: 20%;
+    font-size: 14px;
+}
+.end-e ul li{
+    line-height: 28px;
+    width: 160px;
+    border-right: 1px solid #ebebeb;
+}
+.end-e ul li:first-child{
+    font-size: 20px;
+}
+.end-f{
+    width: 1240px;
+    height:175px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+}
+.end-f ul{
+    margin-left: 220px;
+}
+.end-f li{
+    font-size: 14px;
+    float:left;
+}
+.end-f p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.end-i{
+    margin-right: 260px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 44px;
+    float: right;
+    background: url("../images3/16.png") no-repeat 0px 10px;
+}
+.end-i input{
+    width: 230px;
+    height: 40px;
+    margin-left:150px;
+}

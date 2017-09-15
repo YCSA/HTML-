@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.top {
+    height: 80px;
+    text-align: center;
+    background: #18bebe url("../images/logo.png") no-repeat center center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first {
+    margin-left: 30px;
+    font-size: 14px;
+}
+.text2{
+    font-size: 14px;
+}
+
+.one {
+    background-color: rgba(128, 128, 128, 0.22)
+}
+
+.one1 {
+    width: 1000px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+}
+
+.one a {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.two {
+    position: relative;
+    float: left;
+}
+
+.two1 {
+    position: relative;
+    float: right;
+}
+
+.two2 {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+/*start container*/
+.container {
+    width: 1000px;
+}
+
+.one1 .icon {
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    margin-top: -9.5px;
+    top: 50%;
+}
+
+.location {
+    background: url("../images/location.png") no-repeat;
+}
+
+.adm {
+    background: url("../images/adm.png") no-repeat;
+}
+
+.menuOne li {
+    float: left;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menuthree {
+    height: 200px;
+    width: 1000px;
+    font-size: 18px;
+    color: #444;
+    background-color: #ebebeb;
+}
+
+.menuthree li {
+    float: left;
+    padding: 5px 13px;
+    margin: 5px;
+}
+
+.db {
+    border: burlywood 2px solid;
+    height: 20px;
+    background-color: white;
+
+}
+
+
+.span {
+    width: 0;
+    height: 0;
+    display: block;
+    border: 10px solid transparent;
+    border-top-color: #333333;
+}
+
+.column {
+    color: #18bebe;
+}
+
+.sidebar {
+    position: relative;
+    height: 50px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+    marker-end: 20px;
+}
+
+.sidebar .sidebar_left > li {
+    display: inline-block;
+
+}
+
+.sidebar_left {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    text-indent: 10px;
+    line-height: 25px;
+}
+
+.sidebar_right {
+    height:24px;
+    right: 10px;
+    position: absolute;
+    width: 300px;
+    margin-top: -12px;
+    top:50%;
+    line-height: 24px;
+
+}
+
+.sidebar_search_bx {
+    margin-top: 2.5px;
+    display: block;
+    float: left;
+    width: 19px;
+    height: 19px;
+    background: url("../images/wenhao.png") no-repeat;
+}
+
+.sidebar_search_bj {
+    background: no-repeat;
+    color: #18bebe;
+    top: 10px;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+.sidebar_search {
+    width: 230px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    border: 25px;
+    border-radius: 30px;
+}
+
+.sidebar_search_ss {
+    border: none;
+    height: 25px;
+
+}
+
+.sidebar_search_div {
+    position: relative;
+}
+
+.sidebar_search_bj2 {
+    display: block;
+    float: right;
+    width: 14px;
+    position: absolute;
+    height: 14px;
+    top: 5px;
+    left: 160px;
+    background: url("../images/search.png") no-repeat;
+    z-index: 2;
+}
+
+.sidebar_search_ss2 {
+    background: white url("../images/search.png") no-repeat left center;
+    position: absolute;
+    width: 60px;
+    float: right;
+    border: none;
+    height: 25px;
+}
+.sidebar_search_sswz{
+    text-indent: 15px;
+}
+
+.hot {
+    height: 345px;
+    margin-top: 20px;
+    background-color: #ebebeb;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+
+.hot_bjtp {
+    background:#ebebeb url("../images/data_image.png") no-repeat;
+    width: 209px;
+    height: 209px;
+}
+
+.hot_bjtp_wz {
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+.hot_bjtp_wz_wx2 {
+    color: #18bebe;
+    font-size: 18px;
+
+}
+
+.items {
+    overflow: hidden;
+}
+
+.items > div:not(:last-child) {
+    margin-right: 14.266px;
+
+}
+
+/*end container*/
+.guild {
+    position: relative;
+    background-color: white;
+    width: 1000px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+
+}
+.guild_lb{
+
+
+}
+.guild_lb li{
+    float: left;
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.guild_sr{
+    width: 30px;
+    height: 30px;
+    border: solid 1px;
+    position: absolute;
+    top:0px;
+}
+.an{
+    height: 35px;
+    width: 80px;
+    font-size: 16px;
+    background-color: #ebebeb;
+    border: none;
+    float: left;
+    margin-right: 40px;
+}
+.guild_an2{
+    width: 80px;
+    height: 35px;
+    background-color: #ff8201;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 35px;
+}
+.rwm{
+    width: 1000px;
+    height: 140px;
+    position: relative;
+    margin-left:0;padding-right: 0;
+    margin-top:46px;
+
+}
+.rwm_tu{
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    background: url("../images/small_weixin.png");
+    position: absolute;
+    left: 0;
+}
+.rwm_wz{
+    position: absolute;
+    margin-left: 100px;
+
+}
+.rwm_wz dt{
+    font-size: 20px;
+    color: #18bebe;
+    margin-top: 5px;
+}
+.rwm_wz dd{
+    margin-top: 5px;
+}
+.end{
+    background-color: #515151;
+    margin-top: -30px;
+}
+.end0{
+    width:1000px;
+    height:200px;
+}
+.end0 .footer_endOne>li{
+    float:left;
+}
+.end2{
+    font-size: 14px;
+    color: white;
+    margin-top: 30px;
+    line-height:25px;
+}
+.end2_tu{
+    margin-bottom: 10px;
+}
+
+.end1{
+    border-top:1px solid #ccc;
+    width: 1000px;
+    height:50px;
+}
+.end3{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 12px;
+    margin-left: 100px;
+    line-height: 30px;
+
+}
+
+.end4{
+
+    margin-top: 70px;
+    font-size: 12px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+.end4>p>a,.end3>p>a{
+    color: white;
+}
+.end5{
+    color: white;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 60px;
+    line-height: 30px;
+}
+.end5_one{
+    list-style: url("../images/weixin2.png");
+}
+.end5_two{
+    list-style: url("../images/tianmao.png");
+}
+.end5_three{
+    list-style: url("../images/shop.png");
+}
+.end2_wz1,.end2_wz2,.end2_wz3{
+    color: white;
+}
+.end6_wz{
+    float: left;
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+}
+.end6_wz2{
+    font-size: 12px;
+    color: #ffffff;
+    float: right;
+    margin-top: 15px;
+}
+

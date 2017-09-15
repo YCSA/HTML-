@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.centenr{
+    margin-left: auto;margin-right: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+
+}
+.row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+/*公共样式*/
+.top{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border: 1px #d8d5d5 solid;
+    border-top: none;
+}
+.top-a{
+ width: 1240px;
+    height: 40px;
+}
+.top-b{
+    float: left;
+}
+.top-b li{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #bbbbbb;
+
+}
+.top-c{
+    float: right;
+}
+.top-c li{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+.da{
+    width: 1240px;
+    height:1300px;
+}
+.top-d{
+    margin-top: 30px;
+    background: url("../images3/logo.png") no-repeat ;
+    height: 70px;width: 100%;
+}
+.top-ss{
+    float: right;
+    width: 425px;
+    position: relative;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 32px;
+}
+.top-sk{
+    width: 385px;
+    height: 35px;
+    position: absolute;
+    color: #eeeeee;
+    font-size: 16px;
+}
+.top-an{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    background: white url("../images3/fangdajing.png") no-repeat center center;
+    border: 1px solid #b2b2b2;
+    right: 0px;
+    
+}
+.top-ana{
+    width: 120px;
+    height: 40px;
+    border: none;
+    float: right;
+    background: #ffdd3d url("../images3/shopcar.png") no-repeat 20px center;
+    text-indent: 10px;
+    margin-top: 30px;
+}
+.top-anb{
+    width: 120px;
+    background:white url("../images3/clock.png") no-repeat 1px center;
+    border: none;
+    height: 16px;
+    font-size: 12px;
+    color: #b2b2b2;
+    float: right;
+    text-indent: 20px;
+    margin-right: -120px;
+
+}
+.nav{
+    width: 1240px;
+    height: 50px;
+    background-color: #404145;
+    margin-top: 20px;
+}
+.nav-a{
+    width: 250px;
+    height: 50px;
+    background-color: #ff4a00;
+    float: left;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.nav-b{
+    width: 990px;
+    height: 50px;
+    float: right;
+}
+.nav-b li{
+    display: inline-block;
+    text-indent: 20px;
+    margin-right: 20px;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+}
+.tu{
+    background: url("../images3/mshanghai4.7.jpg") no-repeat;
+    width: 992px;height: 270px;
+    float: left;
+    margin-top: 20px;
+}
+.cz{
+    width: 228px;
+    height: 270px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cz-hf{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+.hm{
+    width: 178px;
+    height: 40px;
+    margin-top: 10px;
+}
+.je{
+    width: 178px;
+    height: 40px;
+    margin-top: 30px;
+}
+.jg{
+    line-height: 45px;
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.jg span{
+    font-size: 18px;
+}
+.cz button{
+    background-color: #888888;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+.ltsq,.dxsq{
+    width: 228px;
+    height: 250px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #888888;
+    font-size: 18px;
+    line-height: 50px;
+}
+.yb{
+    width: 228px;
+    height: 700px;
+    float: right;
+}
+.sjzs{
+    width: 992px;
+    float: left;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-right:20px;
+}
+.sjzs-a{
+    width: 25%;
+    height: 110px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    border-right: none;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #FAFAFA;
+
+
+}
+.sjzs-a p,.sjzs-b p{
+line-height: 30px;
+    font-size: 18px;
+    color: #888888;
+}
+.sjzs-b{
+    width: 25%;
+    height: 110px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+.qb{
+    width: 942px;
+    height: 690px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.qb-a{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 35px;
+    color: #888888;
+    float: left;
+    font-size: 14px;
+}
+.qb-a .wz{
+    width: 50px;
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+    background: #ff4a00;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.qb .qb-a .yd{
+    background-color: #0456f9;
+}
+.end{
+    width: 1920px;
+    height: 537px;
+    background-color: #FAFAFA;
+}
+.end-a{
+    width: 1240px;
+    height: 160px;
+}
+.end-b{
+    width: 20%;
+    height: 160px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-bottom: 1px solid #888888;
+}
+.end-b p{
+    line-height: 40px;
+}
+.end-c{
+    width: 1240px;
+    height: 200px;
+    border-bottom: 1px solid #888888;
+
+}
+.end-d{
+    width: 290px;
+    height: 140px;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.end-d-wz{
+    font-size: 30px;
+    line-height: 40px;
+}
+.end-d-wx{
+    font-size: 12px;
+    line-height: 20px;
+}
+.end-d button{
+    width: 150px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ff4a00;
+    border: none;
+    margin-top: 15px;
+}
+.end-e{
+    width: 950px;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+}
+.end-e ul{
+    float: left;
+    width: 20%;
+    font-size: 14px;
+}
+.end-e ul li{
+    line-height: 28px;
+    width: 160px;
+    border-right: 1px solid #888888;
+}
+.end-e ul li:first-child{
+    font-size: 20px;
+}
+.end-f{
+    width: 1240px;
+    height:175px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+}
+.end-f ul{
+    margin-left: 220px;
+}
+.end-f li{
+    font-size: 14px;
+    float:left;
+}
+.end-f p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.end-i{
+    margin-right: 260px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 44px;
+    float: right;
+    background: url("../images3/16.png") no-repeat 0px 10px;
+}
+.end-i input{
+     width: 230px;
+    height: 40px;
+    margin-left:150px;
+}

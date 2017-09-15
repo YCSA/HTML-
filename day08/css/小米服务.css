@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.centenr{
+    margin-left: auto;margin-right: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+公共样式*/
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #ebebeb;
+}
+.top-a{
+    width: 1240px;
+    height: 40px;
+}
+.top-b{
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+
+}
+.top-b li{
+    display: inline-block;
+    float: left;
+    margin-right:10px;
+    font-size: 12px;
+}
+.top-c{
+    display: inline-block;
+    float: right;
+}
+.top-c li{
+    font-size: 12px;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.da{
+    width: 1240px;
+    height: 2200px;
+}
+.nav{
+    width: 100%;
+    background: url("../images5/logo.png") no-repeat ;
+    height: 70px;
+    margin-top: 30px;
+}
+.nav button{
+    width: 150px;
+    height: 42px;
+    background: #ffdd3d url("../images5/shopcar.png") no-repeat 30px center;
+    border: none;
+    font-size: 14px;
+    float: right;
+    margin-top: 30px;
+}
+.ss{
+    width: 357px;
+    height: 40px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.ss input{
+    width: 310px;
+    height: 40px;
+    outline: none;
+}
+.ss span{
+    float: right;
+    display: inline-block;
+    width: 43px;height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #b2b2b2;
+    border-left: none;
+    background: url("../images5/fangdajing.png") no-repeat center center;
+}
+.nav p{
+    color: #b2b2b2;
+    background: url("../images5/clock.png") no-repeat 0px center;
+    float: right;
+    text-indent: 20px;
+    margin-right: -518px;
+    font-size: 13px;
+}
+.nav-a{
+    width: 100%;
+    height: 50px;
+    background-color: #404145;
+    margin-top: 30px;
+}
+.nav-b{
+    background: #ff4a00;
+    width: 300px;
+    height: 100%;
+    float: left;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.nav-c{
+    width: 940px;
+    line-height: 50px;
+    display: inline-block;
+    color: white;
+    float: right;
+}
+.nav-c li{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 15px;
+    text-indent: 20px;
+}
+.nav-d{
+    font-size: 12px;
+    color: #b2b2b2;
+    line-height: 40px;
+}
+.nav-e{
+    background: url("../images5/fuwu-header-1.jpg") no-repeat center center;
+    height: 300px;
+}
+.ning{
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.ning-a{
+    width: 1240px;
+    height: 300px;
+}
+.ning-b{
+    width: 1140px;
+    height: 260px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.ning-c{
+    width: 25%;
+    height: 260px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+}
+.chang{
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #b2b2b2;
+}
+.chang-a{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+
+}
+.chang-b{
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    float: left;
+}
+.chang-b p{
+    margin-top: 20px;
+    color: #666666;
+    font-size: 18px;
+}
+.chang-c{
+    width: 25%;
+    height: 50%;
+    padding-left: 30px;
+    background-color: #FAFAFA;
+    padding-top:60px;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    float: left;
+}
+.chang-c input{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+}
+.chang-c button {
+    width: 42px;height: 44px;
+    background:#FAFAFA url("../images5/fangdajing.png") no-repeat center center;
+    border:1px #666666 solid;
+    position: absolute;
+    margin-left: 212px;
+}
+.fuwu{
+    margin-top: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #dfdfdf;
+}
+.fuwu-a{
+    font-size: 20px;
+    color: #666;
+}
+.fuwu-b{
+    font-size: 12px;
+    float: right;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.fuwu-c{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.fuwu-c ul{
+    display: inline-block;
+    width:16.5%;
+    height: 220px;
+    font-size: 13px;
+    float: left;
+margin-top: 30px;
+    border-right: 1px solid #dfdfdf;
+}
+.fuwu-c ul li{
+    line-height: 25px;
+    text-indent: 20px;
+}
+.fuwu-c ul li:first-child{
+    font-size: 18px;
+    line-height: 40px;
+}
+.fuwu-c ul:first-child li:nth-child(2) a{
+    color: #ff4a00
+}
+.fuwu-h{
+    border: none;
+}
+.fuwu-d{
+    margin-top: 50px;
+    width: 1240px;
+    height: 450px;
+    float: left;
+}
+.fuwu-g{
+    width: 25%;
+    height: 447px;
+    float: left;
+
+}
+.fuwu-e{
+    width: 288px;
+    height: 360px;
+}
+.fuwu-e img{
+    width: 288px;
+    height: 360px;
+}
+.fuwu-f{
+    background-color: #404145;
+    width: 288px;
+    height: 90px;
+    text-align: center;
+}
+.fuwu-fa{
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+}.fuwu-fb{
+    color: #fff;
+    font-size: 13px;
+}
+.end{
+    width: 1920px;
+    height: 537px;
+    background-color: #FAFAFA;
+}
+.end-a{
+    width: 1240px;
+    height: 160px;
+}
+.end-b{
+    width: 20%;
+    height: 160px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.end-b p{
+    line-height: 40px;
+}
+.end-c{
+    width: 1240px;
+    height: 200px;
+    border-bottom: 1px solid #ebebeb;
+
+}
+.end-d{
+    width: 290px;
+    height: 140px;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.end-d-wz{
+    font-size: 30px;
+    line-height: 40px;
+}
+.end-d-wx{
+    font-size: 12px;
+    line-height: 20px;
+}
+.end-d button{
+    width: 150px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ff4a00;
+    border: none;
+    margin-top: 15px;
+}
+.end-e{
+    width: 950px;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+}
+.end-e ul{
+    float: left;
+    width: 20%;
+    font-size: 14px;
+}
+.end-e ul li{
+    line-height: 28px;
+    width: 160px;
+    border-right: 1px solid #ebebeb;
+}
+.end-e ul li:first-child{
+    font-size: 20px;
+}
+.end-f{
+    width: 1240px;
+    height:175px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+}
+.end-f ul{
+    margin-left: 220px;
+}
+.end-f li{
+    font-size: 14px;
+    float:left;
+}
+.end-f p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.end-i{
+    margin-right: 260px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 44px;
+    float: right;
+    background: url("../images3/16.png") no-repeat 0px 10px;
+}
+.end-i input{
+    width: 230px;
+    height: 40px;
+    margin-left:150px;
+}

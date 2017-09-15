@@ -1,0 +1,147 @@
+*{
+    margin-left: 0;margin-right: 0;
+}
+.kdq{
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+.top{
+    height: 98px;
+    width: 1130px;
+    overflow:hidden;
+
+}
+.top1{
+    float: left;
+    width: 49px;
+    height: 49px;
+    margin-top:25px;
+    background:#ff8201 url("../images/mi-logo.png") no-repeat center center;
+}
+.top2_wz1{
+    font-size:38px;
+    line-height: 0px;
+}
+.top2_wz2{
+    font-size: 12px;
+    line-height: 0px;
+}
+.top2{
+margin-left:60px;
+
+
+}
+.bj{
+    height: 589px;
+    background:#14212B url("../images/banner.png") no-repeat center center ;
+    position: relative;
+    }
+input{
+    width: 350px;
+    height: 45px;
+    border: 1px solid #cccccc;
+}
+.btn{
+    margin-top: 20px;
+    width: 352px;
+    height: 47px;
+    background-color: #F56600;
+    color: white;
+    font-size: 18px;
+}
+.end{
+    height: 265px;
+    width: 1920px;
+    overflow:hidden;
+    position: absolute;
+}
+.end1{
+    width: 600px;
+    height: 100px;
+    margin-top: 70px;
+
+}
+.end1>p{
+font-size: 13px;
+    color: #666;
+    text-align: center;
+}
+.dl{
+    width: 400px;
+    height: 525px;
+    background-color: white;
+    position: absolute;
+    right:380px;top: 30px;
+    text-align: center;
+
+}
+.dl_wz{
+    font-size: 28px;
+    text-align: center;
+}
+.dl_wz1{
+    color: #F56600;
+}
+.dlk{
+    width: 352px;
+    margin-left: 24px;
+
+}
+.text,.pwd{
+    text-indent: 15px;
+}
+.xtp{
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background: #ccc url("../images/ghs.png");
+}
+.zc{
+    width: 200px;
+}
+.two{
+    margin-top: 60px;
+ border-top: 1px solid #cccccc;
+}
+fieldset{
+    border: none;
+}
+.other_login a{
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color:rgba(102,102,102,1);
+    border-radius: 50%;
+    position: relative;
+    margin-left: 45px;
+
+}
+.other_login span{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: url("../images/icons_type.png") no-repeat;
+    display: block;
+    top: 50%;left: 50%;
+    margin-top: -9px;margin-left: -9px;
+}
+.other_login span.qq{
+    background-position: -19px 0;
+}
+.other_login span.weibo{
+    background-position: -38px 0;
+}
+.other_login span.zhifubao{
+    background-position: -57px 0;
+}
+.other_login span.weixing{
+    margin-left: -11.5px;
+    width: 23px;
+    background-position: -83px 0;
+}
